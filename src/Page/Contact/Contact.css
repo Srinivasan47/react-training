@@ -1,0 +1,9 @@
+.validate{
+    .invalid-feedback{
+        display: block;
+        font-size: 0.875em;
+    }
+    .is-invalid{
+        border-color: #dc3545 !important;
+    }
+}
