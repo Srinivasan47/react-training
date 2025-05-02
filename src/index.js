@@ -9,6 +9,7 @@ import About from './Page/About/About';
 import Contact from './Page/Contact/Contact';
 import MainLayout from './Page/Layout/MainLayout';
 import AuthLayout from './Page/Layout/AuthLayout';
+import Leave from './Page/Leave/Leave';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +20,7 @@ root.render(
           <Route index element={<App />} />
           <Route path="/about-us" element={<About />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/leave" element={<Leave />} />
         </Route>
         <Route element={<AuthLayout />} >
           <Route path="/post/:postId" element={<Post />} />

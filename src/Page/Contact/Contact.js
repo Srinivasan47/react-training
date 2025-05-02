@@ -22,7 +22,7 @@ const Contact = () => {
     const { handleSubmit, control, formState: { errors } } = useForm({
         mode: "onBlur",
         defaultValues: {
-            name: "srinivasan",
+            name: "",
             email: "",
             phone: "",
             message: ""
